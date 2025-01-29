@@ -4,7 +4,7 @@ import { Building, Users, CheckCircle, Trophy } from 'lucide-react';
 const About: React.FC = () => {
   return (
     <section id="about" className="py-20 px-[10%]">
-      <h1 className="text-4xl font-bold mb-12 border-l-8 border-yellow-400 pl-4">about us</h1>
+      <h1 className="text-4xl font-bold mb-12 border-l-8 border-yellow-400 pl-4">About us</h1>
 
       <div className="flex flex-wrap gap-8">
         <div className="flex-1 min-w-[41rem]">
@@ -20,7 +20,7 @@ const About: React.FC = () => {
         <div className="flex-1 min-w-[41rem]">
           <h3 className="text-3xl font-bold mb-4">We will provide you the best work which you dreamt for!</h3>
           <p className="text-gray-600 leading-relaxed mb-6">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas et vero mollitia nemo corporis consequatur aspernatur distinctio dignissimos velit nam.
+          Our team is dedicated to delivering excellence with precision and creativity. We ensure top-quality craftsmanship, attention to detail, and a commitment to exceeding your expectations.
           </p>
           <a href="#services" className="inline-block px-8 py-3 bg-black text-white hover:bg-yellow-400 hover:text-black transition duration-300">
             read more
@@ -31,19 +31,19 @@ const About: React.FC = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-16">
         <div className="bg-gray-100 p-8 text-center">
           <h3 className="text-4xl font-bold mb-2">10+</h3>
-          <p className="text-gray-600">years of experience</p>
+          <p className="text-gray-600">Years of experience</p>
         </div>
         <div className="bg-gray-100 p-8 text-center">
           <h3 className="text-4xl font-bold mb-2">1500+</h3>
-          <p className="text-gray-600">project completed</p>
+          <p className="text-gray-600">Projects completed</p>
         </div>
         <div className="bg-gray-100 p-8 text-center">
           <h3 className="text-4xl font-bold mb-2">790+</h3>
-          <p className="text-gray-600">satisfied clients</p>
+          <p className="text-gray-600">Satisfied clients</p>
         </div>
         <div className="bg-gray-100 p-8 text-center">
           <h3 className="text-4xl font-bold mb-2">450+</h3>
-          <p className="text-gray-600">active workers</p>
+          <p className="text-gray-600">Active Employees</p>
         </div>
       </div>
     </section>

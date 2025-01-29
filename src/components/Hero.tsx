@@ -42,7 +42,7 @@ const Hero: React.FC = () => {
                 <h3 className="text-6xl text-black uppercase mb-4">{slide.title}</h3>
                 <p className="text-base text-gray-600 leading-relaxed mb-4">{slide.text}</p>
                 <a href="#about" className="inline-block px-8 py-3 bg-black text-white hover:bg-yellow-400 hover:text-black">
-                  get started
+                  Get Started
                 </a>
               </div>
             </div>

@@ -12,11 +12,11 @@ const Header: React.FC = () => {
       <header className="sticky top-0 left-0 right-0 shadow-md bg-white z-50 px-[10%] py-6 flex items-center justify-between">
         <a href="#" className="text-2xl text-black">
           <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=50" alt="logo" className="inline-block pr-2 w-[70px] -mb-4" />
-          <span className="text-red-800">A.A.</span>construction
+          <span className="text-red-800">A.A.</span>Construction
         </a>
 
         <nav className={`navbar ${isMenuOpen ? 'active' : ''}`}>
-          {['home', 'about', 'services', 'projects', 'pricing', 'contact', 'blogs'].map((item) => (
+          {['Home', 'About', 'Services', 'Projects', 'Pricing', 'Contact', 'Blogs'].map((item) => (
             <a key={item} href={`#${item}`} className="text-xl text-black capitalize mx-4 hover:text-yellow-400">
               {item}
             </a>
@@ -89,15 +89,16 @@ const Header: React.FC = () => {
             <Phone size={24} />
           </div>
           <h3 className="text-2xl font-bold mb-2">phone number</h3>
-          <p className="text-gray-600">+123-456-7890</p>
-          <p className="text-gray-600">+111-222-3333</p>
+          <p className="text-gray-600">+91810432323</p>
+          <p className="text-gray-600">+911-222-3333</p>
         </div>
 
         <div className="mb-8">
           <div className="h-20 w-20 bg-gray-100 mx-auto mb-2 flex items-center justify-center">
             <Mail size={24} />
           </div>
-          <h3 className="text-2xl font-bold mb-2">email address</h3>
+          <h3 className="text-2xl font-bold mb-2">Email address</h3>
+          <p className='text-gray-600'>rudrasalokhe100@gmail.com</p>
           <p className="text-gray-600">ketansonawane32@gmail.com</p>
           <p className="text-gray-600">Aryanbawkar36@gmail.com</p>
         </div>

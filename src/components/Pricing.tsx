@@ -25,7 +25,7 @@ const Pricing: React.FC = () => {
 
   return (
     <section id="pricing" className="bg-gray-100 py-20 px-[10%]">
-      <h1 className="text-4xl font-bold mb-12 border-l-8 border-yellow-400 pl-4">our pricing</h1>
+      <h1 className="text-4xl font-bold mb-12 border-l-8 border-yellow-400 pl-4">Our Pricing</h1>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {plans.map((plan, index) => (
@@ -35,7 +35,7 @@ const Pricing: React.FC = () => {
             </div>
             <h3 className="text-2xl font-semibold mb-4 capitalize">{plan.name}</h3>
             <div className="text-4xl font-bold mb-6">
-              <span className="text-2xl">$</span>
+              <span className="text-2xl">₹</span>
               {plan.price}
               <span className="text-xl text-gray-600">/mo</span>
             </div>
@@ -45,7 +45,7 @@ const Pricing: React.FC = () => {
               ))}
             </div>
             <a href="#" className="inline-block px-8 py-3 bg-black text-white hover:bg-yellow-400 hover:text-black transition duration-300">
-              choose plan
+              Choose plan
             </a>
           </div>
         ))}

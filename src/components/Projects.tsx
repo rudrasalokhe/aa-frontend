@@ -37,7 +37,7 @@ const Projects: React.FC = () => {
 
   return (
     <section id="projects" className="bg-black py-20 px-[10%]">
-      <h1 className="text-4xl font-bold mb-12 text-white border-l-8 border-yellow-400 pl-4">our projects</h1>
+      <h1 className="text-4xl font-bold mb-12 text-white border-l-8 border-yellow-400 pl-4">Our Projects</h1>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {projects.map((project, index) => (

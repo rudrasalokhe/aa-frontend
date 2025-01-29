@@ -3,7 +3,7 @@ import React from 'react';
 const Contact: React.FC = () => {
   return (
     <section id="contact" className="bg-black py-20 px-[10%]">
-      <h1 className="text-4xl font-bold mb-12 text-white border-l-8 border-yellow-400 pl-4">contact us</h1>
+      <h1 className="text-4xl font-bold mb-12 text-white border-l-8 border-yellow-400 pl-4">Contact Us</h1>
 
       <div className="flex flex-wrap gap-8">
         <iframe 
@@ -14,7 +14,7 @@ const Contact: React.FC = () => {
         ></iframe>
 
         <form className="flex-1 min-w-[41rem] bg-white p-8">
-          <h3 className="text-2xl font-bold mb-6">get in touch</h3>
+          <h3 className="text-2xl font-bold mb-6">Get in touch</h3>
           <input type="text" placeholder="name" className="w-full p-4 mb-4 bg-gray-100" />
           <input type="email" placeholder="email" className="w-full p-4 mb-4 bg-gray-100" />
           <input type="tel" placeholder="phone" className="w-full p-4 mb-4 bg-gray-100" />
