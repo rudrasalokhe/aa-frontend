@@ -15,7 +15,7 @@ const Header: React.FC = () => {
           <span className="text-red-800">A.A.</span>Construction
         </a>
 
-        <nav className={`navbar ${isMenuOpen ? 'active' : ''}`}>
+        <nav className={`navbar ${isMenuOpen ? 'active' : ''} md:flex md:space-x-4 hidden`}>
           {['Home', 'About', 'Services', 'Projects', 'Pricing', 'Contact', 'Blogs'].map((item) => (
             <a key={item} href={`#${item}`} className="text-xl text-black capitalize mx-4 hover:text-yellow-400">
               {item}
@@ -26,7 +26,7 @@ const Header: React.FC = () => {
         <div className="flex gap-1">
           <button 
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="h-12 w-12 bg-gray-100 text-black hover:bg-black hover:text-white flex items-center justify-center"
+            className="h-12 w-12 bg-gray-100 text-black hover:bg-black hover:text-white flex items-center justify-center md:hidden"
           >
             <Menu size={20} />
           </button>
