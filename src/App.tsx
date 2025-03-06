@@ -9,6 +9,7 @@ import Pricing from './components/Pricing';
 import Contact from './components/Contact';
 import Blogs from './components/Blogs';
 import Footer from './components/Footer';
+import Chatbot from './components/Chatbot';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Contact />
       <Blogs />
       <Footer />
+      <Chatbot /> {/* Add the Chatbot component here */}
     </div>
   );
 }
