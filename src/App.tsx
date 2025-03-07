@@ -10,6 +10,7 @@ import Contact from './components/Contact';
 import Blogs from './components/Blogs';
 import Footer from './components/Footer';
 import Chatbot from './components/Chatbot';
+import ConstructionAppointmentBooking from './components/ConstructionAppointmentBooking';
 
 function App() {
   return (
@@ -23,8 +24,10 @@ function App() {
       <Pricing />
       <Contact />
       <Blogs />
+      <ConstructionAppointmentBooking/>
       <Footer />
-      <Chatbot /> {/* Add the Chatbot component here */}
+      <Chatbot />
+       {/* Add the Chatbot component here */}
     </div>
   );
 }
